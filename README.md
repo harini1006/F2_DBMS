@@ -10,24 +10,25 @@ CREATE: This command is used to create the database or its objects (like table, 
 ### Query:
 #### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 ### SQL QUERY:
-create table student(rollno int primary key, name varchar(20),age int,address varchar(100),phno varchar(10));
+create table students(rollno int primary key, name varchar(20),age int,address varchar(100),phno varchar(10));
 
 ### OUTPUT:
+![Screenshot 2023-10-05 091802](https://github.com/harini1006/F2_DBMS/assets/113497405/615772e3-019d-466f-bddc-9a35616b3340)
 
-![image](https://github.com/harini1006/F2_DBMS/assets/113497405/bdfc4d19-1f32-4cb7-96e4-170284e94baf)
 
 #### 2) Change the above student table by adding another attribute department
 ### SQL QUERY:
-alter table student add dept varchar(10);
+alter table students add dept varchar(10);
 
 ### OUTPUT:
-![image](https://github.com/harini1006/F2_DBMS/assets/113497405/5e417937-dbe4-4b05-90a5-36e2e0cd48bc)
+
+![Screenshot 2023-10-05 091958](https://github.com/harini1006/F2_DBMS/assets/113497405/63a9efb5-142b-4847-b352-41ef00542cea)
 
 
 
 #### 3) Drop the student table
 ### SQL QUERY:
-drop table student;
+drop table students;
 
 ### OUTPUT:
 
