@@ -31,12 +31,12 @@ alter table students add dept varchar(10);
 drop table students;
 
 ### OUTPUT:
+![image](https://github.com/harini1006/F2_DBMS/assets/113497405/eafa9619-7b03-48e1-b2fe-f2d87c0cc6c2)
 
-![image](https://github.com/harini1006/F2_DBMS/assets/113497405/1571a243-99c0-4e69-8133-b02bed5d2dad)
 
 #### 4) Delete the student table using truncate keyword
 SQL QUERY:
-truncate table student;
+truncate table students;
 
 ### OUTPUT:
 ![image](https://github.com/harini1006/F2_DBMS/assets/113497405/5f986da4-b8fe-4099-805c-8d23c3298217)
