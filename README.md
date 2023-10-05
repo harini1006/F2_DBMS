@@ -35,7 +35,7 @@ drop table students;
 
 
 #### 4) Delete the student table using truncate keyword
-SQL QUERY:
+### SQL QUERY:
 truncate table students;
 
 ### OUTPUT:
